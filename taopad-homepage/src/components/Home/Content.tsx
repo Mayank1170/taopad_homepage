@@ -7,7 +7,7 @@ export const Content: React.FC = () => {
         <div className="px-[125px]">
             <div className="w-full pt-[27px] flex flex-row justify-around">
                 <div className="mt-[104px] flex flex-col gap-y-7">
-                    <p className="text-[47px] font-[400] leading-none">Making $TAO liquid <br /> and and interoperable,<br /> powered by <br /> $TPAD's value <br /> accrual design </p>
+                    <p className="text-[47px] font-[400] leading-none">Making $TAO liquid <br /> and and interoperable<br /> powered by <br /> $TPADs value <br /> accrual design </p>
                     <p className="text-[15px] font-[400] text-[#09FCDC]">TaoPad offers holders benefits through a Bittensor-focused Launchpad and a <br /> bridge for $wTAO transfers between Ethereum and Arbitrum.</p>
                 </div>
                 <div>
@@ -47,7 +47,7 @@ export const Content: React.FC = () => {
                         <div>
                             <Image width={45} height={60} alt="" src={"/images/governance-image.svg"} />
                             <h1 className="text-[20px] font-[400]">Governance</h1>
-                            <p className="text-[15px] font-[400] text-[#C7C7C7]">Engage in a platform where your voice matters, <br /> with community-driven governance allowing<br /> token holders to steer the project's trajectory.</p>
+                            <p className="text-[15px] font-[400] text-[#C7C7C7]">Engage in a platform where your voice matters <br /> with community-driven governance allowing<br /> token holders to steer the projects trajectory.</p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export const Content: React.FC = () => {
                     <div className="flex flex-row ">
                         <div className="mt-[104px] flex flex-col gap-y-7">
                             <p className="text-[46px] font-[400] leading-none">$ TPAD <br /> Tokenomics<br /></p>
-                            <p className="text-[15px] font-[400] text-[#C7C7C7]">$TPAD's total supply is 1,000,000 tokens, with only ever ~ 650,000 circulating <br /> With every buy and sell of $TPAD a 5% fee is collected in $ETH. <br /> 20% of the tax is immediately distributed to $TPAD holders. The remaining 80% is used to <br /> do buybacks as determined by governance, benefiting $TPAD holders.<br /> Governance has the prerogative to change this anytime</p>
+                            <p className="text-[15px] font-[400] text-[#C7C7C7]">$TPADs total supply is 1000000 tokens with only ever  650000 circulating <br /> With every buy and sell of $TPAD a 5% fee is collected in $ETH. <br /> 20% of the tax is immediately distributed to $TPAD holders. The remaining 80% is used to <br /> do buybacks as determined by governance, benefiting $TPAD holders.<br /> Governance has the prerogative to change this anytime</p>
                             <p className="text-[20px] text-[#09FCDC]">1 STEP</p>
                             <div>
                                 <p className="text-[20px] text-[#09FCDC]">CLAIM</p>

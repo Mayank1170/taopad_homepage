@@ -22,7 +22,7 @@ export const FAQs: React.FC = () => {
                         </div>
                     </summary>
                     <div className="pb-4 text-secondary-500">
-                        TaoPad is a cryptocurrency protocol building DeFi for the BitTensor network's native token, $TAO.
+                        TaoPad is a cryptocurrency protocol building DeFi for the BitTensor networks native token $TAO.
                     </div>
                 </details>
                 <details className="group">
@@ -40,7 +40,7 @@ export const FAQs: React.FC = () => {
                             </svg>
                         </div>
                     </summary>
-                    <div className="pb-4 text-secondary-500">TaoPad is a cryptocurrency protocol building DeFi for the BitTensor network's native token, $TAO.</div>
+                    <div className="pb-4 text-secondary-500">TaoPad is a cryptocurrency protocol building DeFi for the BitTensor networks native token, $TAO.</div>
                 </details>
                 <details className="group">
                     <summary
@@ -57,7 +57,7 @@ export const FAQs: React.FC = () => {
                             </svg>
                         </div>
                     </summary>
-                    <div className="pb-4 text-secondary-500">TaoPad is a cryptocurrency protocol building DeFi for the BitTensor network's native token, $TAO.</div>
+                    <div className="pb-4 text-secondary-500">TaoPad is a cryptocurrency protocol building DeFi for the BitTensor networks native token, $TAO.</div>
                 </details>
             </div>
         </div>
