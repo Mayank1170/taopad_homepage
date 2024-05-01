@@ -19,7 +19,7 @@ export const Hero: React.FC = () => {
                 <Header />
             </div>
             <div className="flex flex-row w-full h-[calc(100vh-204px)] ">
-                <div className="relative w-[80%] h-full flex flex-row mt-[100px] ml-[30px]">
+                <div className="relative w-[80%] h-full flex flex-row mt-[100px] pl-[30px]">
                     <div>
                         <div className="w-fit flex items-center gap-2 border-[1px] border-[#0F0F0F] rounded-[100px] px-2 py-1">
                             <div className="w-[6px] h-[6px] flex flex-col rounded-full bg-[#2EEA90] border-[1px] border-[#2EEA90]" />
@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
                                 <Link href={"/"} className="w-full max-w-[185px] h-[36px] flex justify-center bg-black/50 mr-[40px]">
                                     <button className={`w-full flex border-[1px] items-center justify-center  bg-[#0D0D0D] rounded-[6px] border-[#1A1A1A]`}>
                                         <p className="text-[14px] font-[500] text-[#D1DBE0]">
-                                            Check Launchpad
+                                            Reedeem Rewards
                                         </p>
                                     </button>
                                 </Link>
