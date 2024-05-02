@@ -11,8 +11,6 @@ export const Hero: React.FC = () => {
     return (
         <div className=" bg-auto flex flex-col min-h-screen relative w-full flex  items-center overflow-x-hidden text-white"
             style={{
-                // backgroundPositionX: "10%%",
-                // backgroundPositionY: "-5%",
                 backgroundSize: "cover",
             }}>
             <div className=" flex flex-col  relative w-screen">
@@ -27,11 +25,11 @@ export const Hero: React.FC = () => {
                         </div>
                         <div>
                             <div className="flex gap-3 ">
-                                <p className="text-[60px] leading-[72px]">Building</p>
-                                <p className="text-[60px] leading-[72px] text-[#2EEA90]"> Launchpad,</p>
+                                <p className="md:text-[60px] text-[30px] leading-[72px]">Building</p>
+                                <p className="md:text-[60px] text-[30px] leading-[72px] text-[#2EEA90]"> Launchpad,</p>
                             </div>
-                            <p className="text-[60px] leading-[72px]">   for Tao ecosystem</p>
-                            <p className="text-[#D1DBE08C]">Search for the best presales from tao ecosystem on <br />
+                            <p className="md:text-[60px] text-[30px] leading-[72px]">   for Tao ecosystem</p>
+                            <p className="text-[#D1DBE08C] text-[10px] md:text-[20px] ">Search for the best presales from tao ecosystem on <br />
                                 our launchpad, and start journey with newest projects</p>
                             <div className="flex flex-row gap-4 mt-9">
                                 <Link href={"/"} className="w-full max-w-[185px] h-[36px] flex justify-center bg-black/50 ">
@@ -52,8 +50,8 @@ export const Hero: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className="absolute right-[-70px] top-5">
-                        <Image src={"./image/hero_bg.svg"} alt="background" width={800} height={800} />
+                    <div className="lg:flex hidden absolute  right-[-70px] top-5">
+                        <Image src={"./images/hero_bg.svg"} alt="background" width={800} height={800} />
                     </div>
                 </div>
                 <div className="w-[20%] h-full justify-between flex flex-col border-l-[1px] border-[#121212]">
@@ -69,9 +67,22 @@ export const Hero: React.FC = () => {
                         <p className="text-[24px] font-[400]">+4300</p>
                         <p className="text-[14px] font-[400]">People That Invested</p>
                     </div>
-                    <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212]">
+                    <div className="w-full h-full flex flex-col justify-center items-center ">
                         <p className="text-[24px] font-[400]">0x5483...2ECB5</p>
                         <p className="text-[14px] font-[400]">Official Contract Address</p>
+                    </div>
+                </div>
+            </div>
+            <div className="h-[89px] w-full flex justify-end border-b-[1px] border-[#121212] ">
+                <div className="w-full lg:w-[50%] h-full flex items-center gap-[16px] border-t-[1px] border-[#121212] pr-[40px]">
+                    <p className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter']">Partners:</p>
+                    <div className="flex gap-[21.04px]">
+                        <Image src={"./images/layerzero-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/bittensor-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/athena-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/vault-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/camelot-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/taoinu-logo.svg"} alt="" width={100} height={100} />
                     </div>
                 </div>
             </div>
