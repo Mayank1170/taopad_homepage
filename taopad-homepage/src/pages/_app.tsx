@@ -13,6 +13,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Taopad</title> 
       </Head>
       <Component {...pageProps} />
-    </>
+    </> 
   );
 }
