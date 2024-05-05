@@ -1,5 +1,6 @@
 export { Strategy } from "./Strategy"
 export { Hero } from "./Hero"
-export {Presales} from "./Presales"
+export { Presales } from "./Presales"
+export { Tokonomics } from "./Tokonomics"
 export { FAQs } from "./FAQs"
 export { Footer } from "./Footer"

@@ -130,7 +130,7 @@ export const Presales: React.FC = () => {
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center">
-                <div className="relative flex gap-[17.46px] justify-center">
+                <div className="relative flex gap-[17.46px] justify-center mt-[68px]">
                     <Image className="md:flex hidden" src={"./images/Group_extrude_logo.svg"} alt="Taotrade" width={400} height={30} />
                     <Image src={"./images/Group_eth_logo.svg"} alt="Taotrade" width={300} height={30} />
                     <Image className="md:flex hidden" src={"./images/Group_taopad_logo.svg"} alt="Taotrade" width={400} height={30} />
