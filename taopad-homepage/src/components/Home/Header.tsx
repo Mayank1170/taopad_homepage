@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <nav className="w-full h-[84px] flex items-center  border-b-[1px] border-[#121212] ">
             <div id="nav-links" className="w-[20%] flex justify-center gap-12">
                 <Image src={"./logo.svg"} width={150} height={150} alt="logo" />
-                <div className="flex flex-row gap-8">
+                <div className="flex flex-row gap-8 ">
                     <Image src={"./images/x_logo.svg"} width={13} height={13} alt="Twitter" />
                     <Image src={"./images/Telegram_logo.svg"} width={13} height={13} alt="Twitter" />
                 </div>
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
                 </div>
             </div>
             <div className="h-full w-[20%] flex justify-center items-center border-l-[1px] border-[#121212]">
-                <Link href={"/"} className="w-full max-w-[185px] h-[36px] flex justify-center bg-black/50 mr-[40px]">
+                <Link href={"/"} className="w-full max-w-[185px] h-[36px] flex justify-center bg-black/50 mr-[5%]">
                     <button className={`w-full flex border-[1px] items-center justify-center  bg-[#2EEA90] rounded-[6px] border-[#2EEA90]`}>
                         <p className="text-[14px] font-[500] text-black">
                             Launch App

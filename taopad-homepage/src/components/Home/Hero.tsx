@@ -13,10 +13,10 @@ export const Hero: React.FC = () => {
             style={{
                 backgroundSize: "cover",
             }}>
-            <div className=" flex flex-col  relative w-screen">
+            <div className=" flex flex-col relative w-full">
                 <Header />
             </div>
-            <div className="flex flex-row w-full h-[calc(100vh-204px)] ">
+            <div className="flex flex-row w-full h-[calc(100vh-204px)]">
                 <div className="relative w-[80%] h-full flex flex-row mt-[100px] pl-[30px]">
                     <div>
                         <div className="w-fit flex items-center gap-2 border-[1px] border-[#0F0F0F] rounded-[100px] px-2 py-1">

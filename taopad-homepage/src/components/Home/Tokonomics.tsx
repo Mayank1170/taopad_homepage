@@ -46,13 +46,13 @@ export const Tokonomics: React.FC = () => {
                     </div>
                 </div>
                 <div className="absolute bottom-[10%] flex justify-center text-center">
-                <p className="text-[8px] md:text-[12px] lg:text-[16px] xl:text-[20px]">On a weekly basis <span className="text-[#2EEA90]"> $TPAD </span> holders are able<br />
-                    to claim rewards including <span className="text-[#2EEA90]">$wTAO</span>,<br />
-                    as well as all <span className="text-[#2EEA90]">past launchpad tokens.</span>
-                </p>
+                    <p className="text-[8px] md:text-[12px] lg:text-[16px] xl:text-[20px]">On a weekly basis <span className="text-[#2EEA90]"> $TPAD </span> holders are able<br />
+                        to claim rewards including <span className="text-[#2EEA90]">$wTAO</span>,<br />
+                        as well as all <span className="text-[#2EEA90]">past launchpad tokens.</span>
+                    </p>
+                </div>
             </div>
-            </div>
-           
+
         </div>
     )
 }
