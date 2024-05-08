@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
         <footer className="w-full flex flex-row md:flex-col justify-between md:justify-center  border-t-[1px] border-[#121212] mt-[68px] pt-[40px] px-[40px]">
             <div className="max-w-[1200px] w-full flex flex-col gap-[24px] md:flex-row items-center justify-between">
                 <div id="about" className="h-full flex flex-col justify-between max-w-[340px] w-full">
-                    <div className="w-full flex flex-row justify-between items-center md:flex-col gap-[12px]">
+                    <div className="w-full flex flex-row justify-between items- md:flex-col gap-[12px]">
                         <div className="w-full flex flex-col gap-[12px]">
                             <p className="text-[12px]]md:text-[24px] text-[#D1DBE0]">Best Presale For Projects</p>
                             <p className="text-[10px] md:text-[14px] text-[#D1DBE08C]">Get access to new tokens before<br />

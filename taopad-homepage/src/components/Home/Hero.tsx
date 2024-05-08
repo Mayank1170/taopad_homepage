@@ -55,21 +55,21 @@ export const Hero: React.FC = () => {
                     </div>
                 </div>
                 <div className="w-[20%] h-full justify-between flex flex-col border-l-[1px] border-[#121212]">
-                    <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212]">
-                        <p className="text-[24px] font-[400]">43x</p>
-                        <p className="text-[14px] font-[400]">Project Biggest ATH</p>
+                    <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212] p-2">
+                        <p className="text-[12px] md:text-[24px] font-[400]">43x</p>
+                        <p className="text-[10px] md:text-[14px] font-[400]">Project Biggest ATH</p>
                     </div>
                     <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212]">
-                        <p className="text-[24px] font-[400]">500,000+ <span className="text-[16px]">USD</span></p>
-                        <p className="text-[14px] font-[400]">Money Made In Presales</p>
+                        <p className="text-[12px] md:text-[24px]  font-[400]">500,000+ <span className="text-[16px]">USD</span></p>
+                        <p className="text-[10px] md:text-[14px] font-[400]">Money Made In Presales</p>
                     </div>
                     <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212]">
-                        <p className="text-[24px] font-[400]">+4300</p>
-                        <p className="text-[14px] font-[400]">People That Invested</p>
+                        <p className="text-[12px] md:text-[24px]  font-[400]">+4300</p>
+                        <p className="text-[10px] md:text-[14px] font-[400]">People That Invested</p>
                     </div>
                     <div className="w-full h-full flex flex-col justify-center items-center ">
-                        <p className="text-[24px] font-[400]">0x5483...2ECB5</p>
-                        <p className="text-[14px] font-[400]">Official Contract Address</p>
+                        <p className="text-[12px] md:text-[24px]  font-[400]">0x5483...2ECB5</p>
+                        <p className="text-[10px] md:text-[14px] font-[400]">Official Contract Address</p>
                     </div>
                 </div>
             </div>

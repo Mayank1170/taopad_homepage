@@ -16,31 +16,31 @@ export const Tokonomics: React.FC = () => {
                 <Image className="" src="/images/TokonomicsBgSVG.svg" width={"150000"} height={800} alt="" />
                 <Image className="absolute top-[10%] left-[30%] w-[35%]" src="/images/TokonomicsCenterSVG.png" width={"400"} height={800} alt="" />
                 <div className="">
-                    <div className="flex flex-col gap-[-5px] absolute top-[28%] left-[14%] text-right">
-                        <h1 className="text-[#D1DBE0] text-sm md:text-[20px]">1 000 000</h1>
-                        <p className="text-[#D1DBE08C] text-[14px]">Total Supply $TPAD</p>
+                    <div className="flex flex-col gap-[-5px] absolute top-[28%] left-[11%] sm:left-[14%] md:left-[10%] lg:[14%] text-right">
+                        <h1 className="text-[#D1DBE0]  text-[10px] md:text-[20px]">1 000 000</h1>
+                        <p className="text-[#D1DBE08C] text-[6px] md:text-[14px]">Total Supply $TPAD</p>
                     </div>
-                    <div className="flex flex-col gap-[-5px] absolute top-[28%] right-[19%] text-left">
-                        <h1 className="text-[#D1DBE0]  text-sm md:text-[20px]">5%</h1>
+                    <div className="flex flex-col gap-[-5px] absolute top-[28%]  right-[15%] md:right-[19%] text-left">
+                    <h1 className="text-[#D1DBE0]  text-[10px] md:text-[20px]">5%</h1>
                         <p className="text-[#D1DBE08C] text-[50%] md:text-[14px]">Buy Tax</p>
                     </div>
                 </div>
                 <div className="">
-                    <div className="flex flex-col gap-[-5px] absolute top-[45.6%] left-[8%] text-right">
-                        <h1 className="text-[#D1DBE0] text-sm md:text-[20px]]">350 000</h1>
-                        <p className="text-[#D1DBE08C] text-[14px]">Blacklisted From Sniping</p>
+                    <div className="flex flex-col gap-[-5px] absolute top-[45.6%] left-[3%] sm:left-[8%] md:left-[1%] lg:left-[6%] text-right">
+                        <h1 className="text-[#D1DBE0]  text-[10px] md:text-[20px]">350 000</h1>
+                        <p className="text-[#D1DBE08C] text-[6px] md:text-[14px]">Blacklisted From Sniping</p>
                     </div>
-                    <div className="flex flex-col gap-[-5px] absolute top-[45.6%] right-[8%] text-left">
+                    <div className="flex flex-col gap-[-5px] absolute top-[45.6%] right-[1%] sm:right-[6%] md:right-[4%] xl:right-[8%] text-left">
                         <h1 className="text-[#D1DBE0]  text-[10px] md:text-[20px]">Task Of Taxes</h1>
-                        <p className="text-[#D1DBE08C] text-[50%] md:text-[14px]">For buybacks, liquidity etc. </p>
+                        <p className="text-[#D1DBE08C] text-[6px] md:text-[14px]">For buybacks, liquidity etc. </p>
                     </div>
                 </div>
                 <div className="">
-                    <div className="flex flex-col gap-[-5px] absolute bottom-[30%] left-[14%] text-right">
-                        <h1 className="text-[#D1DBE0]  text-sm md:text-[20px]">650 000</h1>
-                        <p className="text-[#D1DBE08C] text-[14px]">Circulating Supply</p>
+                    <div className="flex flex-col gap-[-5px] absolute bottom-[30%] left-[11%] sm:left-[14%] md:left-[10%] lg:[14%] text-right">
+                        <h1 className="text-[#D1DBE0]  text-[10px] md:text-[20px]">650 000</h1>
+                        <p className="text-[#D1DBE08C] text-[6px] md:text-[14px]">Circulating Supply</p>
                     </div>
-                    <div className="flex flex-col gap-[-5px] absolute bottom-[30%] right-[19%] text-left">
+                    <div className="flex flex-col gap-[-5px] absolute bottom-[30%] right-[15%] md:right-[19%] text-left">
                         <h1 className="text-[#D1DBE0]  text-[10px] md:text-[20px]">5%</h1>
                         <p className="text-[#D1DBE08C] text-[50%] md:text-[14px]">Sell Tax</p>
                     </div>
