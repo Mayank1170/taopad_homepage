@@ -68,22 +68,22 @@ export const Hero: React.FC = () => {
                         <Image src={"./images/hero_bg.svg"} alt="background" width={800} height={800} />
                     </div>
                 </div>
-                <div className="w-[20%] h-full justify-between flex flex-col border-l-[1px] border-[#121212]">
+                <div className="w-[20%] h-full justify-between flex flex-col border-l-[1px] border-[#121212] text-center">
                     <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212] p-2">
-                        <p className="text-[12px] md:text-[24px] font-[400]">43x</p>
-                        <p className="text-[10px] md:text-[14px] font-[400]">Project Biggest ATH</p>
+                        <p className="text-[9px] sm:text-[12px] md:text-[24px] font-[400]">43x</p>
+                        <p className="text-[7px] sm:text-[10px] md:text-[14px] text-[#D1DBE08C] font-[400]">Project Biggest ATH</p>
                     </div>
                     <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212]">
-                        <p className="text-[12px] md:text-[24px]  font-[400]">500,000+ <span className="text-[16px]">USD</span></p>
-                        <p className="text-[10px] md:text-[14px] font-[400]">Money Made In Presales</p>
+                        <p className="text-[9px] sm:text-[12px] md:text-[24px]  font-[400]">500,000+ <span className="text-[6px] sm:text-[9px] md:text-[16px] text-[#D1DBE099]">USD</span></p>
+                        <p className="text-[7px] sm:text-[10px]  md:text-[14px] text-[#D1DBE08C] font-[400]">Money Made In Presales</p>
                     </div>
                     <div className="w-full h-full flex flex-col justify-center items-center border-b-[1px] border-[#121212]">
-                        <p className="text-[12px] md:text-[24px]  font-[400]">+4300</p>
-                        <p className="text-[10px] md:text-[14px] font-[400]">People That Invested</p>
+                        <p className="text-[9px] sm:text-[12px] md:text-[24px]  font-[400]">+4300</p>
+                        <p className="text-[7px] sm:text-[10px]  md:text-[14px] text-[#D1DBE08C] font-[400]">People That Invested</p>
                     </div>
                     <div className="w-full h-full flex flex-col justify-center items-center ">
-                        <p className="text-[12px] md:text-[24px]  font-[400]">0x5483...2ECB5</p>
-                        <p className="text-[10px] md:text-[14px] font-[400]">Official Contract Address</p>
+                        <p className="text-[9px] sm:text-[12px] md:text-[24px] font-[400]">0x5483...2ECB5</p>
+                        <p className="text-[7px] sm:text-[10px] md:text-[14px] text-[#D1DBE08C] font-[400]">Official Contract Address</p>
                     </div>
                 </div>
             </div>
