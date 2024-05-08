@@ -18,10 +18,11 @@ const Header: React.FC = () => {
 
     return (
         <nav className="w-full h-[84px] flex items-center  border-b-[1px] border-[#121212] gap-4 px-3">
-            <div id="nav-links" className="w-full lg:w-[20%] flex justify-between lg:justify-center gap-12">
+            <div id="nav-links" className="w-full h-full lg:w-[20%] flex justify-between lg:justify-center">
                 <Image src={"./logo.svg"} width={150} height={150} alt="logo" />
-                <div className="w-fit flex flex-row gap-8 ">
+                <div className="w-fit flex flex-row gap-8 px-10 justify-center border-x-[1px] border-[#121212]">
                     <Image src={"./images/x_logo.svg"} width={13} height={13} alt="Twitter" />
+                    <div className="h-full border-r-[1px] border-[#121212]"></div>
                     <Image src={"./images/Telegram_logo.svg"} width={13} height={13} alt="Telegram" />
                 </div>
             </div>

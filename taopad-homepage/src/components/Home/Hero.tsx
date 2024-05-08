@@ -9,7 +9,7 @@ import { Content } from "./Content";
 
 export const Hero: React.FC = () => {
     return (
-        <div className=" bg-auto flex flex-col min-h-screen relative w-full flex  items-center overflow-x-hidden text-white"
+        <div className=" bg-auto flex flex-col min-h-screen relative w-full flex  items-center overflow-x-hidden text-white bg-[url(/images/heroBgBlur.svg)] bg-cover bg-no-repeat"
             style={{
                 backgroundSize: "cover",
             }}>
@@ -19,9 +19,23 @@ export const Hero: React.FC = () => {
             <div className="flex flex-row w-full h-[calc(100vh-204px)]">
                 <div className="relative w-[80%] h-full flex flex-row mt-[100px] pl-[30px]">
                     <div>
-                        <div className="w-fit flex items-center gap-2 border-[1px] border-[#0F0F0F] rounded-[100px] px-2 py-1">
-                            <div className="w-[6px] h-[6px] flex flex-col rounded-full bg-[#2EEA90] border-[1px] border-[#2EEA90]" />
-                            <p className="text-[12px] font-[400]">New Things Soon</p>
+                        <div className="w-fit p-2 h-[28px] relative flex items-center justify-between">
+                            <div className="absolute w-full h-full"
+                                style={{
+                                    background: "linear-gradient(0deg, #0D0D0D 0%, #0D0D0D 100%) padding-box, radial-gradient(circle at right, #1A1A1A 60%, #15D176 80%, #B9F8DA 100%) border-box",
+                                    borderWidth: "1px",
+                                    borderStyle: "solid",
+                                    borderColor: "transparent",
+                                    borderRadius: "100px",
+                                }} />
+                            <div className="w-[22px] flex justify-center items-center z-[95] p-[7px] m-[3px]">
+                                <div className="w-[8px] h-[8px] bg-[#2EEA90] rounded-full border-[0.5px] border-white/opacity-50 z-[99]" />
+                            </div>
+                            <div
+                                className="w-[80px] top-0 absolute h-7 rounded-[100px] border-[1px] border-[transparent] blur-sm"
+                                style={{ background: "linear-gradient(270deg, #0D0D0D 60%, #2EEA90 150%) padding-box, radial-gradient(circle at right, #2F2A2F 60%, #15D176 80%, #B9F8DA 100%) border-box", }} />
+                            <div className="w-full z-[96] text-[#D1DBE0] text-[12px] font-[400]">New Things Soon</div>
+                            <div className="w-[22px] h-[22px] left-[4px] top-[3px] absolute bg-emerald-400 rounded-full blur-[50px]" />
                         </div>
                         <div>
                             <div className="flex gap-3 ">
@@ -73,8 +87,8 @@ export const Hero: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-[89px] w-full flex justify-end border-b-[1px] border-[#121212] ">
-                <div className="w-full lg:w-[50%] h-full flex items-center gap-[16px] border-t-[1px] border-[#121212] pr-[40px]">
+            <div className=" h-[89px] w-full flex justify-end items-end border-b-[1px] border-[#121212] relative">
+                <div className="relative h-full flex items-center gap-[16px] border-t-[1px] border-[#121212] pr-[40px]">
                     <p className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter']">Partners:</p>
                     <div className="flex gap-[21.04px]">
                         <Image src={"./images/layerzero-logo.svg"} alt="" width={100} height={100} />
@@ -84,6 +98,7 @@ export const Hero: React.FC = () => {
                         <Image src={"./images/camelot-logo.svg"} alt="" width={100} height={100} />
                         <Image src={"./images/taoinu-logo.svg"} alt="" width={100} height={100} />
                     </div>
+                    <div className="absolute left-[-39px] top-[-14px] h-[115px] bg-transparent border-l-2 border-[#121212] transform rotate-[40deg]"></div>
                 </div>
             </div>
         </div>
