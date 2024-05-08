@@ -32,9 +32,9 @@ const FAQsData = [
 export const FAQs: React.FC = () => {
     return (
         <div className="mt-[67px] bg-[url(/images/FAQsBgSVG.svg)] bg-no-repeat bg-auto">
-            <div className="w-full flex flex-row items-center justify-around mx-auto  mt-[50px]">
-                <div className="text-[27px] h-full">
-                    <p className="text-[#D1DBE0] text-[48px] leading-[120%]"><span className="text-[#2EEA90]">Frequently<br /></span> Asked Questions</p>
+            <div className="w-full flex flex-col md:flex-row items-center justify-around mx-auto mt-[50px]">
+                <div className="w-[50%] flex flex-col justify-center items-center text-[27px] h-full">
+                    <p className="text-[#D1DBE0] text-3xl md:text-[48px] leading-[120%]"><span className="text-[#2EEA90]">Frequently  <span className="hidden md:flex"><br /></span> </span> Asked Questions</p>
                     <p className="text-[#D1DBE08C] text-[16px]">You want to ask about more things?</p>
                     <div className="mt-[24px]">
                         <Link href={"/"} className="w-full max-w-[148px] h-[36px] flex justify-center bg-black/50 mr-[40px]">
@@ -47,11 +47,11 @@ export const FAQs: React.FC = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="w-[40%] flex flex-col gap-[24px]">
+                <div className="w-[80%] md:w-[40%] flex flex-col items-center gap-[24px] mt-[50px] md:mt-[0px]">
                     {FAQsData.map((item) => (
-                        <details key={item.id} className="w-full group border-[1px] border-[#1A1A1A] rounded-[8px] bg-[url('/images/FAQsCardBg.svg')]">
+                        <details key={item.id} className="w-full group border-[1px] border-[#1A1A1A] rounded-[8px] bg-[url('/images/FAQsCardBg.svg')] ">
                             <summary
-                                className="w-full flex cursor-pointer items-center justify-between text-[16px] text-secondary-900">
+                                className="w-full flex cursor-pointer items-center justify-between text-[16px] text-secondary-900 ">
                                 <div className="w-full flex">
                                     <p className="w-[57px] py-[20px] flex justify-center items-center text-[14px] text-[#D1DBE0]">{item.id}</p>
                                     <p className="w-[100%] pt-[20px] px-[20px] text-[16px] border-x-[1px] border-[#1A1A1A]">{item.question}</p>
@@ -75,7 +75,6 @@ export const FAQs: React.FC = () => {
                                     </p>
                                 </div>
                                 <div className="w-[56px] flex justify-center">
-
                                 </div>
                             </div>
                         </details>

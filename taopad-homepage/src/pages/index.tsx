@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { FAQs, Faqs, Hero, Strategy } from "@/components/Home";
+import { FAQs, Hero, Strategy } from "@/components/Home";
 import { Presales } from "@/components/Home"
 import { Tokonomics } from "@/components/Home";
 import { Footer } from "@/components/Home";

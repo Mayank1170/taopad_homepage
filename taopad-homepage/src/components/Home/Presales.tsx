@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import ButtonLink from "../common/buttonLink"
+import { PresaleCard } from "./PresalesCard"
 import { LaunchpadCard } from "../common/LaunchpadCard"
 
 
@@ -14,120 +15,9 @@ export const Presales: React.FC = () => {
                 </div>
             </div>
             <div className="flex md:flex-row flex-col gap-[15px] px-[36px]">
-                <div className="w-full h-full py-[20px] rounded-[8px] px-[24px] border-[1px] border-[#1A1A1A] bg-no-repeat bg-cover bg-[url('/images/presale_card_bg.svg')]">
-                    <div className="relative">
-                        <div className="flex justify-between gap-[16px] border-b-[1px] border-[#1A1A1A] py-[21px]">
-                            <div className="flex gap-[16px]">
-                                <Image src={"./images/taotrade-logo.svg"} alt="Taotrade" width={40} height={30} />
-                                <div className="flex flex-col gap-[6px]">
-                                    <h1>TaoTrade</h1>
-                                    <div className="flex flex-row gap-[2px] items-center"><Image src={"./images/ethereum_logo.svg"} alt="Taotrade" width={10} height={100} /><p className="text-[#D1DBE08C]">Ethereum</p></div>
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-4 border-[1px] border-[#1A1A1A] rounded-[100px] px-[12px] py-[7px]">
-                                <div className="w-[6px] h-[6px] flex flex-col rounded-full bg-[#2EEA90] border-[1px] border-[#2EEA90]" />
-                                <p className="text-[14px] font-[400]">Active</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="w-full flex flex-row justify-between mt-[17px] ">
-                                <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Raised </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">(60%)</span></p>
-                                <div className="text-right">
-                                    <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">9 239 935.795</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]">$TTRADE</span>
-                                </div>
-                            </div>
-                            <div className="h-[16px]"></div>
-                            <div className="w-full flex flex-row justify-between mt-[17px] border-b-[1px] border-[#1A1A1A] pb-[18px]">
-                                <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Raised </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">(60%)</span></p>
-                                <div className="text-right">
-                                    <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">9 239 935.795</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]">$TTRADE</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-full flex flex-row justify-between mt-[17px] pb-[18px]">
-                            <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Ending In: </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">3D : 15H : 32M : 17S</span></p>
-                            <div className="text-right">
-                                <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">show</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full h-full py-[20px] rounded-[8px] px-[24px] border-[1px] border-[#1A1A1A] bg-no-repeat bg-cover bg-[url('/images/presale_card_bg.svg')]">
-                    <div className="relative">
-                        <div className="flex justify-between gap-[16px] border-b-[1px] border-[#1A1A1A] py-[21px]">
-                            <div className="flex gap-[16px]">
-                                <Image src={"./images/taotrade-logo.svg"} alt="Taotrade" width={40} height={30} />
-                                <div className="flex flex-col gap-[6px]">
-                                    <h1>TaoTrade</h1>
-                                    <div className="flex flex-row gap-[2px] items-center"><Image src={"./images/ethereum_logo.svg"} alt="Taotrade" width={10} height={100} /><p className="text-[#D1DBE08C]">Ethereum</p></div>
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-4 border-[1px] border-[#1A1A1A] rounded-[100px] px-[12px] py-[7px]">
-                                <div className="w-[6px] h-[6px] flex flex-col rounded-full bg-[#2EEA90] border-[1px] border-[#2EEA90]" />
-                                <p className="text-[14px] font-[400]">Active</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="w-full flex flex-row justify-between mt-[17px] ">
-                                <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Raised </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">(60%)</span></p>
-                                <div className="text-right">
-                                    <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">9 239 935.795</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]">$TTRADE</span>
-                                </div>
-                            </div>
-                            <div className="h-[16px]"></div>
-                            <div className="w-full flex flex-row justify-between mt-[17px] border-b-[1px] border-[#1A1A1A] pb-[18px]">
-                                <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Raised </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">(60%)</span></p>
-                                <div className="text-right">
-                                    <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">9 239 935.795</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]">$TTRADE</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-full flex flex-row justify-between mt-[17px] pb-[18px]">
-                            <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Ending In: </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">3D : 15H : 32M : 17S</span></p>
-                            <div className="text-right">
-                                <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">show</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full h-full py-[20px] rounded-[8px] px-[24px] border-[1px] border-[#1A1A1A] bg-no-repeat bg-cover bg-[url('/images/presale_card_bg.svg')]">
-                    <div className="relative">
-                        <div className="flex justify-between gap-[16px] border-b-[1px] border-[#1A1A1A] py-[21px]">
-                            <div className="flex gap-[16px]">
-                                <Image src={"./images/taotrade-logo.svg"} alt="Taotrade" width={40} height={30} />
-                                <div className="flex flex-col gap-[6px]">
-                                    <h1>TaoTrade</h1>
-                                    <div className="flex flex-row gap-[2px] items-center"><Image src={"./images/ethereum_logo.svg"} alt="Taotrade" width={10} height={100} /><p className="text-[#D1DBE08C]">Ethereum</p></div>
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-4 border-[1px] border-[#1A1A1A] rounded-[100px] px-[12px] py-[7px]">
-                                <div className="w-[6px] h-[6px] flex flex-col rounded-full bg-[#2EEA90] border-[1px] border-[#2EEA90]" />
-                                <p className="text-[14px] font-[400]">Active</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="w-full flex flex-row justify-between mt-[17px] ">
-                                <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Raised </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">(60%)</span></p>
-                                <div className="text-right">
-                                    <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">9 239 935.795</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]">$TTRADE</span>
-                                </div>
-                            </div>
-                            <div className="h-[16px]"></div>
-                            <div className="w-full flex flex-row justify-between mt-[17px] border-b-[1px] border-[#1A1A1A] pb-[18px]">
-                                <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Raised </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">(60%)</span></p>
-                                <div className="text-right">
-                                    <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">9 239 935.795</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]">$TTRADE</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-full flex flex-row justify-between mt-[17px] pb-[18px]">
-                            <p><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[21px]">Ending In: </span><span className="text-gray-300 text-sm font-normal font-['Inter'] leading-[21px]">3D : 15H : 32M : 17S</span></p>
-                            <div className="text-right">
-                                <span className="text-gray-300 text-base font-normal font-['Inter'] leading-tight">show</span><span className="text-gray-300 text-xl font-normal font-['Inter'] leading-normal"> </span><span className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] leading-[16.80px]"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <PresaleCard imageSrc="./images/taotrade-logo.svg" heading="TaoPad" chain="Ethereum" chainLogo="./images/ethereum_logo.svg" status="Active" raisedPercentage="60%" raisedValue="9 239 935.795" raisePercentage="100%" raiseValue="11 920 000.000" />
+                <PresaleCard imageSrc="./images/taopad.svg" heading="TaoTrade" chain="Ethereum" chainLogo="./images/ethereum_logo.svg" status="Upcoming" raisedPercentage="0%" raisedValue="0" raisePercentage="100%" raiseValue="5 310 000.000 " />
+                <PresaleCard imageSrc="./images/taobank-logo.svg" heading="TaoBank" chain="BSC" chainLogo="./images/ethereum_logo.svg" status="Ended" raisedPercentage="99.95%" raisedValue="1 499 999.994 " raisePercentage="100%" raiseValue="1 500 000.000" />
             </div>
             <div className="flex flex-col justify-center items-center">
                 <div className="relative flex gap-[17.46px] justify-center mt-[68px]">
@@ -155,16 +45,16 @@ export const Presales: React.FC = () => {
                     <div className="w-[22px] h-[22px] left-[4px] top-[3px] absolute bg-emerald-400 rounded-full blur-[50px]" />
                 </div>
                 <div className="flex flex-col justify-center items-center gap-[16px]">
-                    <div className="w-[55%] text-center mt-[20px]">
-                        <span className="text-gray-300 text-5xl font-normal font-['Inter'] leading-[57.60px]">Bringing use cases on </span>
-                        <span className="text-emerald-400 text-5xl font-normal font-['Inter'] leading-[57.60px]">Ethereum</span>
-                        <span className="text-gray-300 text-5xl font-normal font-['Inter'] leading-[57.60px]"> for </span>
-                        <span className="text-emerald-400 text-5xl font-normal font-['Inter'] leading-[57.60px]">$TAO</span>
-                        <span className="text-gray-300 text-5xl font-normal font-['Inter'] leading-[57.60px]">, powered by </span>
-                        <span className="text-emerald-400 text-5xl font-normal font-['Inter'] leading-[57.60px]">$TPAD’s</span>
-                        <span className="text-gray-300 text-5xl font-normal font-['Inter'] leading-[57.60px]"> unique publicly held launchpad approach</span>
+                    <div className="w-[80%] md:w-[55%] text-center mt-[20px] text-3xl md:text-5xl font-[400] leading-[30zpx] md:leading-[57.60px]">
+                        <span className="text-gray-300">Bringing use cases on </span>
+                        <span className="text-emerald-400 ">Ethereum</span>
+                        <span className="text-gray-300 "> for </span>
+                        <span className="text-emerald-400 ">$TAO</span>
+                        <span className="text-gray-300 ">, powered by </span>
+                        <span className="text-emerald-400 ">$TPAD’s</span>
+                        <span className="text-gray-300 "> unique publicly held launchpad approach</span>
                     </div>
-                    <div className="w-[30%] text-center text-[#D1DBE0]/55 text-base font-normal font-['Inter'] leading-normal">TaoPad offers holder benefits for all launchpad offerings through continued, retroactive rewards to all holders</div>
+                    <div className="w-[50%] md:w-[30%] text-center text-[#D1DBE0]/55 text-sm md:text-base font-normal font-['Inter'] leading-normal">TaoPad offers holder benefits for all launchpad offerings through continued, retroactive rewards to all holders</div>
                 </div>
                 <div className="mt-[24px]">
                     <Link href={"/"} className="w-full max-w-[185px] h-[36px] flex justify-center bg-black/50 mr-[40px]">
