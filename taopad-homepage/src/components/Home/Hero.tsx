@@ -39,23 +39,23 @@ export const Hero: React.FC = () => {
                         </div>
                         <div>
                             <div className="flex gap-3 ">
-                                <p className="md:text-[60px] text-[30px] leading-[72px]">Building</p>
-                                <p className="md:text-[60px] text-[30px] leading-[72px] text-[#2EEA90]"> Launchpad,</p>
+                                <p className="md:text-[60px] text-[25px] sm:text-[40px] leading-[36px] sm:leading-[72px]">Building</p>
+                                <p className="md:text-[60px] text-[25px] sm:text-[40px] leading-[36px] sm:leading-[72px] text-[#2EEA90]"> Launchpad,</p>
                             </div>
-                            <p className="md:text-[60px] text-[30px] leading-[72px]">   for Tao ecosystem</p>
+                            <p className="md:text-[60px] text-[25px] sm:text-[40px] leading-[36px] md:leading-[72px]">   for Tao ecosystem</p>
                             <p className="text-[#D1DBE08C] text-[10px] md:text-[20px] ">Search for the best presales from tao ecosystem on <br />
                                 our launchpad, and start journey with newest projects</p>
                             <div className="flex flex-row gap-4 mt-9">
                                 <Link href={"/"} className="w-full max-w-[185px] h-[36px] flex justify-center bg-black/50 ">
                                     <button className={`w-full flex border-[1px] items-center justify-center  bg-[#2EEA90] rounded-[6px] border-[#2EEA90]`}>
-                                        <p className="w-full text-[14px] font-[500] text-black">
+                                        <p className="w-full text-[10px] md:text-[14px] font-[500] text-black">
                                             Check Launchpad
                                         </p>
                                     </button>
                                 </Link>
                                 <Link href={"/"} className="w-full max-w-[185px] h-[36px] flex justify-center bg-black/50 mr-[40px]">
                                     <button className={`w-full flex border-[1px] items-center justify-center  bg-[#0D0D0D] rounded-[6px] border-[#1A1A1A]`}>
-                                        <p className="text-[14px] font-[500] text-[#D1DBE0]">
+                                        <p className="text-[10px] md:text-[14px] font-[500] text-[#D1DBE0]">
                                             Reedeem Rewards
                                         </p>
                                     </button>

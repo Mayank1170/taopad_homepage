@@ -69,44 +69,44 @@ const Header: React.FC = () => {
                     </button>
                 </Link>
             </div>
-            <button className="flex lg:hidden z-[100]" onClick={toggleMenu}>
+            <button className="flex lg:hidden z-[999]" onClick={toggleMenu}>
                 <RxHamburgerMenu />
             </button>
             {isMenuOpen && (
-                <div className="flex flex-col gap-[2px] top-0 backdrop-blur-md  z-[99] py-[20px] w-full h-[250px] absolute">
+                <div className="flex flex-col justify-center items-center gap-[2px] border-b-[1px] border-[#121212] top-0 backdrop-blur-md z-[990] py-[20px] w-full h-[250px] absolute">
                     <Link
                         href="/"
-                        className="w-full h-full flex items-center justify-center text-[#2EEA90] rounded-[6px]"
+                        className="h-full flex items-center justify-center text-[#2EEA90] rounded-[6px]"
                     >
                         Home
                     </Link>
                     <Link
                         href="/"
-                        className="w-full  h-full  px-2 flex justify-center text-[#949494]"
+                        className="w-full  h-full px-2 flex justify-center text-[#949494]"
                     >
                         Documentation
                     </Link>
                     <Link
                         href="/"
-                        className="w-full h-full  flex justify-center text-[#949494]"
+                        className="w-full h-full flex justify-center text-[#949494]"
                     >
                         Rewards
                     </Link>
                     <Link
                         href="/"
-                        className="w-full h-full  flex justify-center text-[#949494]"
+                        className="w-full h-full flex justify-center text-[#949494]"
                     >
                         Roadmap
                     </Link>
                     <Link
                         href="/"
-                        className="w-full h-full  flex justify-center text-[#949494]"
+                        className="w-full h-full flex justify-center text-[#949494]"
                     >
                         Bridge
                     </Link>
-                    <div className="h-full w-[100%] lg:hidden flex justify-center items-center border-l-[1px] border-[#121212]">
-                        <Link href={"/"} className="w-[20%] max-w-[185px] h-[36px] flex justify-center bg-black/50 mr-[5%]">
-                            <button className={`w-full flex border-[1px] items-center justify-center  bg-[#2EEA90] rounded-[6px] border-[#2EEA90]`}>
+                    <div className="h-full w-full lg:hidden flex justify-center items-center border-l-[1px] border-[#121212]">
+                        <Link href={"/"} className=" h-[36px] flex justify-center bg-black/50">
+                            <button className={`w-full flex border-[1px] items-center px-3 justify-center  bg-[#2EEA90] rounded-[6px] border-[#2EEA90]`}>
                                 <p className="text-[14px] font-[500] text-black">
                                     Launch App
                                 </p>
