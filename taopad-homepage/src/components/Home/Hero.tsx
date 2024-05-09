@@ -87,18 +87,27 @@ export const Hero: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className=" h-[89px] w-full flex justify-end items-end border-b-[1px] border-[#121212] relative">
-                <div className="relative h-full flex items-center gap-[16px] border-t-[1px] border-[#121212] pr-[40px]">
-                    <p className="text-gray-300 text-opacity-60 text-sm font-normal font-['Inter']">Partners:</p>
-                    <div className="flex gap-[21.04px]">
+            <div className="h-[89px] w-full flex justify-end items-end border-b-[1px] border-[#121212] relative">
+                {/* <div className="w-full h-full bg-[#0A0A0A] z-[99]"></div> */}
+                <div className="w-fit relative h-full flex items-center gap-[16px] border-t-[1px] border-[#121212] pr-[40px]">
+                    <p className="w-fit h-full flex justify-center items-center text-gray-300 text-opacity-60 text-sm font-normal font-['Inter'] z-[90] bg-[#0A0A0A] p-2">Partners:</p>
+                    <div className="flex gap-[21.04px] BottomToTop2 z-[50]">
                         <Image src={"./images/layerzero-logo.svg"} alt="" width={100} height={100} />
                         <Image src={"./images/bittensor-logo.svg"} alt="" width={100} height={100} />
                         <Image src={"./images/athena-logo.svg"} alt="" width={100} height={100} />
                         <Image src={"./images/vault-logo.svg"} alt="" width={100} height={100} />
                         <Image src={"./images/camelot-logo.svg"} alt="" width={100} height={100} />
                         <Image src={"./images/taoinu-logo.svg"} alt="" width={100} height={100} />
+                        <div className="flex sm:hidden ">
+                        <Image src={"./images/layerzero-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/bittensor-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/athena-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/vault-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/camelot-logo.svg"} alt="" width={100} height={100} />
+                        <Image src={"./images/taoinu-logo.svg"} alt="" width={100} height={100} />
+                        </div>
                     </div>
-                    <div className="absolute left-[-39px] top-[-14px] h-[115px] bg-transparent border-l-2 border-[#121212] transform rotate-[40deg]"></div>
+                    <div className="absolute left-[-39px] top-[-14px] h-[115px] bg-transparent border-l-2 border-[#121212] transform rotate-[40deg] z-[9999]"></div>
                 </div>
             </div>
         </div>

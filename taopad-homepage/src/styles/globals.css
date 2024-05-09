@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+@media (max-width: 640px) {
+  .BottomToTop2 {
+    animation: BottomToTop2 2s infinite linear;
+  }
+
+  @keyframes BottomToTop2 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-150%);
+    }
+  }
+}
