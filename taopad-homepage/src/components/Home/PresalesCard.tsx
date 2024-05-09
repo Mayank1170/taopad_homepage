@@ -14,10 +14,11 @@ interface PresaleCardProps {
     raisedValue: string,
     raisePercentage: string,
     raiseValue: string,
+    statusDot: string,
 
 }
 
-export const PresaleCard: React.FC<PresaleCardProps> = ({ heading, imageSrc, chain, chainLogo, blurryBackground, statusBackgroundColor, statusBorderColor, status, raisePercentage, raiseValue, raisedPercentage, raisedValue }) => {
+export const PresaleCard: React.FC<PresaleCardProps> = ({ heading, imageSrc, chain, chainLogo, blurryBackground, statusDot, statusBackgroundColor, statusBorderColor, status, raisePercentage, raiseValue, raisedPercentage, raisedValue }) => {
     return (
         <div className="w-full h-full rounded-[8px] px-[24px] border-[1px] border-[#1A1A1A] bg-no-repeat bg-cover bg-[url('/images/presale_card_bg.svg')]">
             <div className="relative">
@@ -39,7 +40,7 @@ export const PresaleCard: React.FC<PresaleCardProps> = ({ heading, imageSrc, cha
                                 borderRadius: "100px",
                             }} />
                         <div className="w-[22px] flex justify-center items-center z-[99] p-[7px] m-[3px]">
-                            <div className={`w-[8px] h-[8px] bg-[${statusBorderColor}] rounded-full border-[0.5px] border-white/opacity-50 z-[99]`} />
+                            <div className={`${statusDot} w-[8px] h-[8px] bg-[${statusBorderColor}] rounded-full border-[0.5px] border-white/opacity-50 z-[99]`} />
                         </div>
                         <div
                             className="w-[80px] top-0 absolute h-7 rounded-[100px] border-[1px] border-[transparent] blur-sm"
