@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import TelegramLogo from "../icons/TelegramLogo";
 
 const FAQsData = [
     {
@@ -39,7 +40,8 @@ export const FAQs: React.FC = () => {
                     <div className="mt-[24px]">
                         <Link href={"/"} className="w-full max-w-[148px] h-[36px] flex justify-center bg-black/50 mr-[40px]">
                             <button className={`w-full flex border-[1px] items-center justify-center gap-[8px] bg-[#2EEA90] rounded-[6px] border-[#2EEA90]`}>
-                                <Image src={"./images/Telegram_logo.svg"} width={13} height={13} alt="Twitter" />
+                                {/* <Image src={"./images/Telegram_logo.svg"} width={13} height={13} alt="Twitter"/> */}
+                                <TelegramLogo fillColor="#000000"/>
                                 <p className="text-[14px] font-[500] text-black">
                                     Join Telegram
                                 </p>

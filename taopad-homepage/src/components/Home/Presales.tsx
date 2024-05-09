@@ -15,9 +15,9 @@ export const Presales: React.FC = () => {
                 </div>
             </div>
             <div className="flex md:flex-row flex-col gap-[15px] px-[36px]">
-                <PresaleCard imageSrc="./images/taotrade-logo.svg" heading="TaoPad" chain="Ethereum" chainLogo="./images/ethereum_logo.svg" status="Active" raisedPercentage="60%" raisedValue="9 239 935.795" raisePercentage="100%" raiseValue="11 920 000.000" />
-                <PresaleCard imageSrc="./images/taopad.svg" heading="TaoTrade" chain="Ethereum" chainLogo="./images/ethereum_logo.svg" status="Upcoming" raisedPercentage="0%" raisedValue="0" raisePercentage="100%" raiseValue="5 310 000.000 " />
-                <PresaleCard imageSrc="./images/taobank-logo.svg" heading="TaoBank" chain="BSC" chainLogo="./images/ethereum_logo.svg" status="Ended" raisedPercentage="99.95%" raisedValue="1 499 999.994 " raisePercentage="100%" raiseValue="1 500 000.000" />
+                <PresaleCard imageSrc="./images/taotrade-logo.svg" heading="TaoPad" chain="Ethereum" chainLogo="./images/ethereum_logo.svg" blurryBackground="#2EEA90" statusBackgroundColor="#2EEA90" statusBorderColor="#2EEA90" status="Active" raisedPercentage="60%" raisedValue="9 239 935.795" raisePercentage="100%" raiseValue="11 920 000.000" />
+                <PresaleCard imageSrc="./images/taopad.svg" heading="TaoTrade" chain="Ethereum" chainLogo="./images/ethereum_logo.svg" blurryBackground="#D1A815" statusBackgroundColor="#D1A815" statusBorderColor="#D1A815" status="Upcoming" raisedPercentage="0%" raisedValue="0" raisePercentage="100%" raiseValue="5 310 000.000 " />
+                <PresaleCard imageSrc="./images/taobank-logo.svg" heading="TaoBank" chain="BSC" chainLogo="./images/binancedex.svg" blurryBackground="#FFF" statusBackgroundColor="#FFFFFF" statusBorderColor="#FFF" status="Ended" raisedPercentage="99.95%" raisedValue="1 499 999.994 " raisePercentage="100%" raiseValue="1 500 000.000" />
             </div>
             <div className="flex flex-col justify-center items-center">
                 <div className="relative flex gap-[17.46px] justify-center mt-[68px]">

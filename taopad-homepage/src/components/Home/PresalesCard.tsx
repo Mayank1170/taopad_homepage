@@ -6,6 +6,9 @@ interface PresaleCardProps {
     imageSrc: string,
     chain: string,
     chainLogo: string,
+    statusBorderColor: string,
+    statusBackgroundColor: string,
+    blurryBackground: string,
     status: string,
     raisedPercentage: string,
     raisedValue: string,
@@ -14,7 +17,7 @@ interface PresaleCardProps {
 
 }
 
-export const PresaleCard: React.FC<PresaleCardProps> = ({ heading, imageSrc, chain, chainLogo, status, raisePercentage, raiseValue, raisedPercentage, raisedValue }) => {
+export const PresaleCard: React.FC<PresaleCardProps> = ({ heading, imageSrc, chain, chainLogo, blurryBackground, statusBackgroundColor, statusBorderColor, status, raisePercentage, raiseValue, raisedPercentage, raisedValue }) => {
     return (
         <div className="w-full h-full rounded-[8px] px-[24px] border-[1px] border-[#1A1A1A] bg-no-repeat bg-cover bg-[url('/images/presale_card_bg.svg')]">
             <div className="relative">
@@ -23,26 +26,27 @@ export const PresaleCard: React.FC<PresaleCardProps> = ({ heading, imageSrc, cha
                         <Image src={`${imageSrc}`} alt={`${heading}`} width={40} height={30} />
                         <div className="flex flex-col gap-[6px]">
                             <h1>{heading}</h1>
-                            <div className="flex flex-row gap-[2px] items-center"><Image src={"./images/ethereum_logo.svg"} alt="Taotrade" width={10} height={100} /><p className="text-[#D1DBE08C]">{chain}</p></div>
+                            <div className="flex flex-row justify-start items-center gap-[2px] items-center"><Image src={`${chainLogo}`} alt="" width={10} height={100} /><p className="text-[#D1DBE08C]">{chain}</p></div>
                         </div>
                     </div>
                     <div className="w-fit p-2 h-[28px] relative flex items-center justify-between">
                         <div className="absolute w-full h-full"
                             style={{
-                                background: "linear-gradient(0deg, #0D0D0D 0%, #0D0D0D 100%) padding-box, radial-gradient(circle at right, #1A1A1A 60%, #15D176 80%, #B9F8DA 100%) border-box",
+                                background: `linear-gradient(0deg, #0D0D0D 0%, #0D0D0D 100%) padding-box, radial-gradient(circle at right, #1A1A1A 60%, ${statusBorderColor} 80%, ${statusBackgroundColor} 100%) border-box`,
                                 borderWidth: "1px",
                                 borderStyle: "solid",
                                 borderColor: "transparent",
                                 borderRadius: "100px",
                             }} />
                         <div className="w-[22px] flex justify-center items-center z-[99] p-[7px] m-[3px]">
-                            <div className="w-[8px] h-[8px] bg-[#2EEA90] rounded-full border-[0.5px] border-white/opacity-50 z-[99]" />
+                            <div className={`w-[8px] h-[8px] bg-[${statusBorderColor}] rounded-full border-[0.5px] border-white/opacity-50 z-[99]`} />
                         </div>
                         <div
                             className="w-[80px] top-0 absolute h-7 rounded-[100px] border-[1px] border-[transparent] blur-sm"
-                            style={{ background: "linear-gradient(270deg, #0D0D0D 60%, #2EEA90 150%) padding-box, radial-gradient(circle at right, #2F2A2F 60%, #15D176 80%, #B9F8DA 100%) border-box", }} />
+                            style={{ background: `linear-gradient(270deg, #0D0D0D 60%, ${statusBackgroundColor} 150%) padding-box, radial-gradient(circle at right, #2F2A2F 60%, ${statusBorderColor}  80%, #B9F8DA 100%) border-box`, }}
+                        />
                         <div className="w-full z-[99] text-[#D1DBE0] text-[12px] font-[400]">{status}</div>
-                        <div className="w-[22px] h-[22px] left-[4px] top-[3px] absolute bg-emerald-400 rounded-full blur-[50px]" />
+                        <div className={`w-[22px] h-[22px] left-[4px] top-[3px] absolute bg-[${blurryBackground}] rounded-full blur-[50px]`} />
                     </div>
                 </div>
                 <div className="flex flex-col justify-between">
